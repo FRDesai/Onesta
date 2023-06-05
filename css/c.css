@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.banner {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 95vh;
+}
+.banner .content {
+  height: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.banner .content h1 {
+  color: white;
+  font-size: 4rem;
+}
+.banner .content h1 span {
+  color: #FFB448;
+}
+.banner .image img {
+  position: absolute;
+  z-index: 2;
+  top: 28%;
+  left: 55%;
+}
+.banner .image .circle {
+  width: 950px;
+  height: 950px;
+  border-radius: 50%;
+  background-color: #FFB448;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  z-index: 1;
+  transition: 0.2s;
+}
+.banner .image p {
+  color: white;
+  position: absolute;
+  bottom: -17%;
+  right: 15%;
+  font-size: 1.3rem;
+}
+
+.desc {
+  margin: 5% 10%;
+}
+.desc p {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.container {
+  margin: 0 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .container-left {
+  margin: 0 1%;
+}
+.container .container-left .cardB {
+  padding: 2% 4%;
+  margin: 2% 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  min-height: 250px;
+}
+.container .container-left .cardB .para {
+  padding-right: 0;
+  width: 65%;
+  color: white;
+  font-size: 0.8rem;
+}
+.container .container-left .cardB .card-img {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #Ed9e4b;
+}
+.container .container-left .cardB .card-img img {
+  width: 25vw;
+  position: relative;
+  z-index: 2;
+}
+.container .container-left .card {
+  padding: 2% 4%;
+  margin: 2% 0;
+  background-color: #Ed9e4b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  min-height: 250px;
+}
+.container .container-left .card .para {
+  padding-right: 0;
+  width: 65%;
+  font-size: 0.8rem;
+}
+.container .container-left .card .card-img {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+}
+.container .container-left .card .card-img img {
+  width: 25vw;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=c.css.map */

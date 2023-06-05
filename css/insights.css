@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+@font-face {
+  font-family: KG;
+  src: url(KGBlankSpaceSolid.ttf);
+}
+* {
+  overflow-x: hidden;
+}
+
+.banner {
+  background-color: black;
+  width: 100vw;
+  text-align: center;
+  padding: 8rem 4rem;
+}
+.banner img {
+  width: 80vw;
+}
+
+.steps {
+  margin: 5rem 0;
+}
+.steps .container-reverse {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+.steps .container-reverse .image {
+  width: 30%;
+  overflow-y: hidden;
+}
+.steps .container-reverse .image img {
+  width: 100%;
+  height: 100%;
+}
+.steps .container-reverse .content {
+  width: 30%;
+  font-size: 17px;
+}
+.steps .container-reverse .content h1 {
+  font-size: 2.3rem;
+}
+.steps .container-reverse .content .desc {
+  line-height: 2rem;
+}
+.steps .container-reverse .content .yellow {
+  color: #FFB448;
+  font-size: 1.5rem;
+}
+.steps .container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.steps .container .image {
+  width: 30%;
+  overflow-y: hidden;
+}
+.steps .container .image img {
+  width: 100%;
+  height: 100%;
+}
+.steps .container .content {
+  width: 30%;
+  font-size: 17px;
+}
+.steps .container .content h1 {
+  font-size: 2.3rem;
+}
+.steps .container .content .desc {
+  line-height: 2rem;
+}
+.steps .container .content .yellow {
+  color: #FFB448;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .steps {
+    padding: 0 4%;
+  }
+  .steps .container-reverse .image {
+    width: 43%;
+  }
+  .steps .container-reverse .content {
+    width: 50%;
+  }
+  .steps .container .image {
+    width: 39%;
+  }
+  .steps .container .content {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .steps {
+    padding: 6%;
+  }
+  .steps .container {
+    margin: 5% 5%;
+    background-color: white;
+    display: inline-block;
+  }
+  .steps .container .image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .steps .container .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .steps .container .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .steps .container-reverse {
+    margin: 5% 5%;
+    display: inline-block;
+    background-color: white;
+  }
+  .steps .container-reverse .image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .steps .container-reverse .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}/*# sourceMappingURL=insights.css.map */
